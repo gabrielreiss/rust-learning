@@ -17,6 +17,6 @@ fn main() {
     if numero == number_rand {
         println!("Parabéns, você acertou. Chance de 1% de acertar");
     } else {
-        println!("Você errou... O número era: {number_rand}. Tudo bem, as chances de errar eram 99%");
+        println!("Você errou, tudo bem, as chances de errar eram 99%");
     }
 }

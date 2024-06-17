@@ -1,5 +1,5 @@
 [package]
-name = "learning-rust"
+name = "numeros-aleatorios"
 version = "0.1.0"
 edition = "2021"
 

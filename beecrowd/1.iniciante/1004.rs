@@ -10,6 +10,6 @@ fn main() {
     let a:i32 = str_a.trim().parse::<i32>().expect("Não foi possivel converter o primeiro valor");
     let b:i32 = str_b.trim().parse::<i32>().expect("Não foi possivel converter o segundo valor");
 
-    let c:i32 = a + b; 
-    println!("SOMA = {}", c);
+    let c:i32 = a * b; 
+    println!("PROD = {}", c);
 }
