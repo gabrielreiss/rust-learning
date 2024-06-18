@@ -1,6 +1,6 @@
 use std::io;
 
-fn main() {
+pub fn main() {
 
     let a:i32 = number();
     let b:i32 = number();
