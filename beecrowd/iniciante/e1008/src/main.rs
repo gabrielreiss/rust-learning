@@ -16,8 +16,8 @@ fn main() {
 
     let salario:f32 = sal(horas, custo);
 
-    println!("NUMBER = {cad}");
-    println!("SALARY = U$ {salario}");
+    println!("NUMBER = {}", cad);
+    println!("SALARY = U$ {:.2}", salario);
 }
 
 fn sal(horas:f32, custo:f32)-> f32 {
